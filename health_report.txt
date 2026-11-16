@@ -1,0 +1,79 @@
+================================================
+       TELECOM OSS/BSS SERVER HEALTH REPORT
+================================================
+Date: Mon Nov 16 11:40:47 +0530 2026
+Hostname: KAVISHKA
+Linux User: kavishka_rathnayaka
+Operating System: Ubuntu 26.04.1 LTS
+
+--------------- CPU MONITORING ----------------
+ 11:40:47 up 20 min,  1 user,  load average: 0.00, 0.03, 0.08
+CPU Cores: 4
+1-Minute Load Average: 0.00
+awk: fatal: cannot use gawk builtin `load' as variable name
+Load per CPU Core: %
+CPU Load Status: NORMAL
+
+--------------- MEMORY MONITORING --------------
+               total        used        free      shared  buff/cache   available
+Mem:           5.7Gi       506Mi       5.1Gi       4.1Mi       197Mi       5.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+RAM Usage: 9%
+RAM Status: NORMAL
+
+--------------- DISK MONITORING ----------------
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         118G   76G   43G  65% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            2.9G   40K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  3.4M  2.9G   1% /init
+none            2.9G  508K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   80K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   80K  2.9G   1% /mnt/wslg/doc
+C:\             118G   76G   43G  65% /mnt/c
+D:\             257G  102G  156G  40% /mnt/d
+E:\             372G  226G  147G  61% /mnt/e
+F:\             301G   28G  274G  10% /mnt/f
+tmpfs           2.9G     0  2.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           584M   12K  584M   1% /run/user/1000
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+Root Disk Usage: 1%
+Disk Status: NORMAL
+
+--------------- PROCESS MONITORING -------------
+Top 10 CPU-consuming processes:
+    PID COMMAND         %CPU %MEM
+   9973 bash            20.0  0.0
+      1 systemd          0.5  0.2
+    126 dbus-daemon      0.0  0.0
+    154 networkd-dispat  0.0  0.4
+   8985 systemd-udevd    0.0  0.1
+    257 unattended-upgr  0.0  0.5
+    159 systemd-logind   0.0  0.1
+    393 systemd          0.0  0.1
+    345 Relay(346)       0.0  0.0
+
+--------------- NETWORK MONITORING ------------
+lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
+eth0             UP             172.27.81.119/20 fe80::215:5dff:fe8e:6415/64 
+
+--------------- UPTIME MONITORING --------------
+up 20 minutes
+
+--------------- HEALTH SUMMARY -----------------
+SERVER STATUS: HEALTHY
+Total Alerts: 0
+
+Report saved to: /home/kavishka_rathnayaka/oss-bss-monitoring/reports/health_report.txt
+Log saved to: /home/kavishka_rathnayaka/oss-bss-monitoring/logs/monitoring.log
+================================================
+           MONITORING COMPLETED
+================================================
